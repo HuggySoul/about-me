@@ -1,0 +1,42 @@
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.textarea {
+  width: 100%;
+  max-width: 700px;
+  min-height: 200px;
+  border-radius: 20px;
+  font-family: "Nunito Sans";
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+}
+
+.btnBlock {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  align-items: center;
+}
+
+.btn {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background: var(--primary-col);
+  border: none;
+  border-radius: 10px;
+  color: var(--background);
+}
+
+.btnTxt {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 600;
+}

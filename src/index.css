@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
+:root {
+  --background: white;
+  --border-col: rgba(41, 41, 41, 0.3);
+  --foreground: black;
+  --secondary-text: rgb(128, 128, 128);
+  --primary-col: rgb(21, 27, 29);
+  --primary-hover-col: rgba(41, 52, 55, 1);
+  --box-shadow-col: rgba(0, 0, 0, 0.2);
+  --success-col: rgba(90, 197, 96, 1);
+  --modal-background-col: rgba(0, 0, 0, 0.3);
+  --attention-col: red;
+  --regular-col: rgb(71, 114, 250);
+  --standard-z-index: 1;
+  --popup-z-index: 10;
+  --modal-z-index: 20;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
